@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e7dbd977-bfad-4c04-a2b5-5d466845e244</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HashCode2018.py</StartupFile>
+    <StartupFile>PStart.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,25 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="HashCode2018.py" />
+    <Compile Include="car.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="generate_output.py" />
+    <Compile Include="PStart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ride.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="a_example.in" />
+    <Content Include="b_should_be_easy.in" />
+    <Content Include="c_no_hurry.in" />
+    <Content Include="d_metropolis.in" />
+    <Content Include="e_high_bonus.in" />
+    <Content Include="output.txt" />
+    <Content Include="results.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

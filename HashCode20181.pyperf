@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>e7dbd977-bfad-4c04-a2b5-5d466845e244</TargetProject>
+    <FriendlyName>HashCode2018</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>
